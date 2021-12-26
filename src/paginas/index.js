@@ -75,11 +75,11 @@ const IndexPage = () => {
 
   return (
     <main style={pageStyles}>
-      <title>Pase Barrani</title>
+      <title>Pase Sanitario</title>
       <h1 style={headingStyles}>
-        Pase Barranitario
+        Pase Sanitario
       </h1>
-      <p>Por favor ingrese sus datos para generar su pase 100% barrani</p>
+      <p>Por favor ingrese sus datos para generar sus credenciales</p>
 
       <form css={formStyle} onSubmit={handleSubmit}>
         <label css={labelBlock}>
@@ -119,7 +119,7 @@ const IndexPage = () => {
             ref={donde} />
         </label>
         <div  css={submitStyle}>
-        <input type="submit" value="Generar mi pase" />
+        <input type="submit" value="Generar Credencial" />
         </div>
       </form>
     </main>
