@@ -59,7 +59,7 @@ function formatDate(date) {
 
 // markup
 const IndexPage = () => {
-  const inicialNac = new Date(Date.parse("01/01/1990"));
+  const inicialNac = new Date(Date.parse("01/01/2000"));
   const nombre = React.createRef();
   const apellido = React.createRef();
   const dni = React.createRef();
@@ -75,7 +75,7 @@ const IndexPage = () => {
 
   return (
     <main style={pageStyles}>
-      <title>Pase Barranitario</title>
+      <title>Pase Barrani</title>
       <h1 style={headingStyles}>
         Pase Barranitario
       </h1>
