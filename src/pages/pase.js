@@ -123,7 +123,7 @@ const PasePage = () => {
 
       <div css={vacuna}>
             <div css={[vacPos, texto]}>Pfizer-BionTech COVID-19</div>
-            <div css={[lotePos, texto]}>202108B1249</div>
+            <div css={[lotePos, texto]}>202108B1251</div>
             <div css={[fechaPos, texto]}>19/09/2021</div>
             <div css={[dosisPos, texto]}>Primera</div>
             <div css={[dondePos, texto]}>{donde}</div>
@@ -131,7 +131,7 @@ const PasePage = () => {
 
     <div css={vacuna}>
         <div css={[vacPos, texto]}>Pfizer-BionTech COVID-19</div>
-        <div css={[lotePos, texto]}>202109B1358</div>
+        <div css={[lotePos, texto]}>202109B1363</div>
         <div css={[fechaPos, texto]}>23/11/2021</div>
         <div css={[dosisPos, texto]}>Segunda</div>
         <div css={[dondePos, texto]}>{donde}</div>
